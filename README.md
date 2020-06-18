@@ -17,3 +17,11 @@ Implementation
 
 The canvas on which the solar limb and the rectangles are drawn is converted into a coordinate system of fractions of the angular solar radius.
 The angular radius to use can be specified but defaults to the angular radius at 1AU.
+
+
+Building
+----------
+
+```
+browserify viewer.ts -p tsify --noImplicitAny > bundle.js
+```
