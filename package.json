@@ -1,0 +1,17 @@
+{
+  "name": "solar_context_web",
+  "version": "1.0.0",
+  "description": "A simple solar context plotter",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "tsify": "^4.0.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stuart Mumford",
+  "license": "MIT"
+}
